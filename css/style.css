@@ -1,0 +1,301 @@
+@import "null.css";
+
+@font-face {
+   font-family: Appetite;
+   src: url('../fonts/appetite-italic.woff') format('woff'), url('../fonts/appetite-italic.woff2') format('woff2');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: Madelikesslab;
+   src: url('../fonts/madelikesslab.woff') format('woff'), url('../fonts/madelikesslab.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Monly;
+   src: url('../fonts/monly_serif.woff') format('woff'), url('../fonts/monly_serif.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Monly;
+   src: url('../fonts/monly_serif_bold.woff') format('woff'), url('../fonts/monly_serif_bold.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Nautiluspompilius;
+   src: url('../fonts/nautiluspompilius.woff') format('woff'), url('../fonts/nautiluspompilius.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Philosopher;
+   src: url('../fonts/philosopher_bold_italic.woff') format('woff'), url('../fonts/philosopher_bold_italic.woff2') format('woff2');
+   font-weight: 700;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: Philosopher;
+   src: url('../fonts/philosopher_italic.woff') format('woff'), url('../fonts/philosopher_italic.woff2') format('woff2');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: Tangak;
+   src: url('../fonts/tangak.woff') format('woff'), url('../fonts/tangak.woff2') format('woff2');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+/*
+   font-family: Madelikesslab, sans-serif;
+   font-weight: 400;
+
+   font-family: Appetite, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+
+   font-family: Monly, sans-serif;
+   font-weight: 700;
+   font-weight: 400;
+
+font-family: Nautiluspompilius, sans-serif;
+   font-weight: 400;
+
+   
+
+   font-family: Philosopher, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-weight: 700;
+*/
+
+
+
+[class*="__container"] {
+   max-width: 1050px;
+   margin: 0px auto;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   background: url("../img/finish.jpg") 0 0 / 100% auto no-repeat fixed;
+   
+}
+
+p{
+   text-transform: uppercase;
+}
+.header {
+   background: linear-gradient(188deg, rgba(8,6,54,1) 0%, rgba(20,23,74,0.9615196420365021) 0%, rgba(144,213,224,0.6646008745294993) 100%, rgba(219,11,218,0.2976540958180147) 100%);
+
+}
+.header__container {
+   
+}
+.header__container p{
+   min-height: 90px;
+   text-align: center;
+   padding: 30px 0 20px 0;
+   color: antiquewhite;
+   border-radius: 15px;
+   font-family: Monly, sans-serif;
+   font-weight: 700;
+   font-size: 60px;
+}
+.main {
+}
+.main__container {
+}
+.team {
+   background: url("../img/funny.jpg") center 50px  / 600px no-repeat;
+   min-height: 500px;
+  
+}
+.team p{
+   text-align: center;
+   font-size: 40px;
+   font-family: Philosopher, sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   color: #FFF5EE;
+   text-shadow: 5px 5px 5px rgb(213, 227, 230);
+   margin: 20px 0 20px 0;
+   
+}
+.alvin {
+   background: url("../img/alv.gif") 0 0 / 200px ;
+   min-height: 400px;
+   margin: 0 0 30px 0;
+}
+.main-alvin {
+   text-align: center;
+   font-size: 40px;
+    font-family: Philosopher, sans-serif;
+   font-weight: 700;
+   color: rgb(252, 221, 221);
+   padding: 0 0 0 10px;
+}
+.saimon {
+   background: rgba(26, 3, 90, 0.377) url("../img/saimon.png") 0 0 / 300px space;
+   border-radius: 60px 0;
+   min-height: 500px;
+   margin: 0 0 50px 0;
+}
+.main-saimon {
+   text-align: center;
+   font-family: Madelikesslab, sans-serif;
+   font-weight: 400;
+   font-size: 40px;
+   color: rgb(181, 170, 241);
+   padding: 20px 0 20px 0;
+   
+}
+.tiodor {
+   
+}
+.main-tiodor {
+   text-align: center;
+   text-decoration: underline;
+   color: rgb(189, 190, 209);
+   font-family: Madelikesslab, sans-serif;
+   font-weight: 400;
+   font-size: 50px;
+   padding: 0 0 30px 0;
+   
+   
+}
+.image{
+   background: url("../img/tio.gif") 0 20px / 200px round;
+   min-height: 500px;
+   margin: 0 0 50px 0;
+}
+.girls {
+   background: url("../img/girls.jpg") 100% 100% / 600px no-repeat;
+   min-height: 500px;
+}
+.main-girls {
+   text-align: right;
+   padding: 0 50px 0 0;
+   font-size: 40px;
+   font-family: Philosopher, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   color: azure;
+   text-shadow: 5px 5px 5px  rgba(111, 88, 240, 0.596);
+
+}
+.stars {
+   
+}
+.main-stars {
+   text-align: center;
+   font-size: 50px;
+   color: rgb(53, 224, 224);
+   font-family: Monly, sans-serif;
+   font-weight: 700;
+   padding: 40px 0 20px 0;
+}
+.image-girls{
+   background: url("../img/beauty.jpg") 50% / 600px no-repeat;
+   min-height: 350px;
+}
+.beauty {
+   
+}
+.main-beauty {
+   text-align: center;
+   font-size: 40px;
+   color: #FFF5EE;
+   font-family: Nautiluspompilius, sans-serif;
+   font-weight: 400;
+   text-shadow: 3px  4px  rgba(228, 212, 212, 0.459);
+   padding: 20px 20px 30px 0;
+}
+.image-beauty{
+   background: url("../img/told.jpg") center / cover no-repeat fixed;
+   min-height: 400px;
+   box-shadow: 10px 10px 10px 10px rgba(15, 24, 189, 0.164);
+   margin: 0 0 30px 0;
+}
+
+.amore {
+   margin: 0 0 40px 0;
+}
+.main-amore {
+   text-align: center;
+   font-size: 40px;
+   color: rgb(226, 239, 250);
+   font-family: Appetite, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   padding: 0 0 20px 0;
+}
+.amorea {
+   background: url("../img/loveT.jpg") 0 0 / 250px no-repeat, url("../img/loveAlvin.png") 40% 100% / 300px no-repeat, url("../img/love.jpg") 100% 100% / 300px no-repeat, url("../img/meet.gif") center / cover no-repeat;
+   min-height: 600px;
+   border-radius: 40px;
+}
+.best {
+}
+.main-best {
+}
+.image-best {
+   background: linear-gradient(188deg, rgba(64,4,16,0.4) 0%, rgba(233,231,210,0.7) 100%, rgba(144,224,215,0.6646008745294993) 100%, rgba(219,11,218,0.2976540958180147) 100%), url("../img/best.png") center / 900px no-repeat fixed;
+   min-height: 500px;
+   margin: 0 0 60px 0;
+}
+.bow {
+   
+}
+.main-bow {
+   color: rgb(6, 68, 122);
+   font-size: 40px;
+   font-family: Philosopher, sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   padding: 0 0 30px 0;
+   text-align: right;
+}
+.image-bow {
+   background: url("../img/bow.gif") center / cover no-repeat;
+   min-height: 600px;
+   margin: 0 0 40px 0;
+}
+.mucic {
+   margin: 0 0 30px 0;
+   max-height: 400px;
+   min-width: 400px;
+   overflow: scroll;
+}
+.main-music {
+   font-size: 30px;
+   color: #fff5ee62;
+   font-family: Madelikesslab, sans-serif;
+   font-weight: 400;
+   padding: 20px;
+   text-transform: none;
+}
+.image-music {
+   background: linear-gradient(188deg, rgba(4,64,14,0.3816877092633929) 28%, rgba(233,231,210,0.38448882971157217) 85%, rgba(206,232,17,0.15479695296087181) 100%), url("../img/music.png") 40% 50% / contain no-repeat local;
+   min-height: 400px;
+}
+.footer {
+   background-color: rgba(43, 223, 223, 0.438);
+   
+}
+.footer__container {
+   text-align: center;
+   color: rgb(253, 253, 209);
+   padding: 30px 0 0 0;
+   min-height: 90px;
+}
